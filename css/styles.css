@@ -244,7 +244,7 @@ footer .logo-span {
   margin-bottom: 8px;
 }
 .section-four li.list-li {
-  flex-basis: calc((100% - 72px) / 4);
+  width: calc((100% - 48px) / 3);
 }
 
 footer a.nav-list-logo {
