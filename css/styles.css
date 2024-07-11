@@ -97,6 +97,7 @@ address.address-link .list-link:focus {
 /* İlk Section Bölümü */
 .section-one {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 .main-title {
   font-size: 56px;
@@ -104,6 +105,7 @@ address.address-link .list-link:focus {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+  max-width: 496px;
 }
 .button-first {
   background-color: #4d5ae5;
@@ -113,6 +115,12 @@ address.address-link .list-link:focus {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
+  display: block;
+  margin: 0 auto;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 .button-first:hover,
 :focus {
