@@ -195,9 +195,16 @@ footer .logo-span {
 .section-two {
   padding: 120px 0;
 }
+/* Kendi denediklerim olmadığı için chatgpt ye sordum. Verdiği kod! */
 .visually-hidden {
-  display: none;
-  visibility: hidden;
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  border: 0 !important;
 }
 .section-ul {
   display: flex;
