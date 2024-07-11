@@ -196,6 +196,7 @@ footer .logo-span {
   padding: 120px 0;
 }
 .visually-hidden {
+  display: none;
   visibility: hidden;
 }
 .section-ul {
