@@ -241,3 +241,6 @@ footer .logo-span {
   border-top: none;
   margin-bottom: 8px;
 }
+.section-four li.list-li {
+  width: calc((100% - 72px) / 4);
+}
