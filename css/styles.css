@@ -133,11 +133,14 @@ body {
 .feature-li {
   width: calc((100% - 72px) / 4);
 }
-.ourportfolio-ul {
+.our-ul {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+}
+.our-li {
+  width: calc((100% - 72px) / 4);
 }
 /* < Titles / Başlıklar > */
 .hone-title {
