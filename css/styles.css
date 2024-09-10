@@ -12,10 +12,7 @@
   --roboto: "Roboto", sans serif;
   --raleway: "Raleway", sans serif;
 }
-/* Proje Req */
-img {
-  display: block;
-}
+
 /* visually-hidden */
 .visually-hidden {
   position: absolute;
@@ -99,6 +96,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
+  text-align: center;
 }
 .p-footer-content {
   color: var(--cloud);
@@ -108,9 +106,14 @@ body {
 .ourteam-section {
   background-color: var(--cloud);
 }
+.team-member {
+  padding: 32px 0;
+}
 /* UL-Li List  */
 .li-our-team {
   background-color: var(--white);
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 .navbar-ul {
   display: flex;
@@ -132,13 +135,14 @@ body {
   color: var(--white);
   max-width: 496px;
 }
-.h2-title {
+.htwo-title {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--navyblue);
+  margin-bottom: 72px;
 }
 .hthree-title {
   font-weight: 500;
@@ -147,13 +151,10 @@ body {
   letter-spacing: 0.02em;
   color: var(--navyblue);
   margin-bottom: 8px;
+  text-align: center;
 }
 
 /* < Butonlar / Buttons > */
-button {
-  cursor: pointer;
-  display: block;
-}
 .button-item {
   background-color: var(--iris);
   font-family: var(--roboto);
@@ -167,6 +168,7 @@ button {
   height: 56px;
   border: none;
   border-radius: 4px;
+  display: block;
 }
 .button-item:hover,
 .button-item:focus {
