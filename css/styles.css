@@ -13,7 +13,7 @@
   --raleway: "Raleway", sans serif;
 }
 /* Proje Req */
-image {
+img {
   display: block;
 }
 /* < Header area / Navbar / Address  Logo
@@ -26,6 +26,7 @@ image {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
+  margin-right: 76px;
 }
 .logo-span {
   color: var(--navyblue);
@@ -39,6 +40,7 @@ image {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--navyblue);
+  padding: 24px 0;
 }
 .navbar-link:hover {
   color: var(--ocean);
@@ -55,6 +57,10 @@ image {
 .address-link:hover,
 .address-link:focus {
   color: var(--ocean);
+}
+.header {
+  border-bottom: 1px solid;
+  border-color: var(--cornflower);
 }
 
 /* < Body / Section > */
@@ -129,4 +135,21 @@ button {
 /* Footer */
 .thefooter {
   background-color: var(--navyblue);
+}
+/* Display Css Part */
+.header-container {
+  display: flex;
+}
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+}
+.navbar-ul {
+  display: flex;
+  gap: 40px;
 }
