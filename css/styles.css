@@ -98,10 +98,11 @@ body {
   color: var(--slate);
   text-align: center;
 }
-.p-footer-content {
+.footer-content {
   color: var(--cloud);
   line-height: 1.5;
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
 .ourteam-section {
   background-color: var(--cloud);
@@ -193,6 +194,11 @@ body {
 /* Footer */
 .thefooter {
   background-color: var(--navyblue);
+  padding: 100px 0;
+}
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 /* Display Css Part */
 .header-container {
