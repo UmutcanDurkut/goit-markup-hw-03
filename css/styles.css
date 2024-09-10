@@ -16,6 +16,16 @@
 img {
   display: block;
 }
+/* visually-hidden */
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
 /* < Header area / Navbar / Address  Logo
  Başlık alanı / Gezinme çubuğu / Adresleyici > */
 .logo-link {
@@ -65,7 +75,9 @@ img {
 
 /* < Body / Section > */
 
-.feature .ourteam-section .ourportfolio-section {
+.feature,
+.ourteam-section,
+.ourportfolio-section {
   padding: 120px 0;
 }
 body {
@@ -96,6 +108,17 @@ body {
 .li-our-team {
   background-color: var(--white);
 }
+.navbar-ul {
+  display: flex;
+  gap: 40px;
+}
+.feature-ul {
+  display: flex;
+  gap: 24px;
+}
+.feature-li {
+  flex-basis: calc((100% - 72px) / 4);
+}
 /* < Titles / Başlıklar > */
 .hone-title {
   font-size: 56px;
@@ -113,12 +136,13 @@ body {
   text-transform: capitalize;
   color: var(--navyblue);
 }
-.h3-title {
+.hthree-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navyblue);
+  margin-bottom: 8px;
 }
 
 /* < Butonlar / Buttons > */
@@ -160,8 +184,4 @@ button {
 .navbar {
   display: flex;
   align-items: center;
-}
-.navbar-ul {
-  display: flex;
-  gap: 40px;
 }
