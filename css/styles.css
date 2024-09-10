@@ -109,6 +109,13 @@ body {
 .team-member {
   padding: 32px 0;
 }
+.our-div {
+  padding: 32px 16px;
+  border: 1px solid;
+  border-color: var(--cornflower);
+  border-top: none;
+  margin-bottom: 8px;
+}
 /* UL-Li List  */
 .li-our-team {
   background-color: var(--white);
@@ -125,6 +132,12 @@ body {
 }
 .feature-li {
   width: calc((100% - 72px) / 4);
+}
+.ourportfolio-ul {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 /* < Titles / Başlıklar > */
 .hone-title {
