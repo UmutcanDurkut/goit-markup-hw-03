@@ -145,10 +145,12 @@ body {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  flex-basis: calc((100% - 72px) / 4);
 }
 .our-li {
-  width: calc((100% - 72px) / 4);
+  display: flex;
   flex-wrap: wrap;
+  flex-basis: calc((100% - 72px) / 4);
 }
 /* < Titles / Başlıklar > */
 .hone-title {
